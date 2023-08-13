@@ -1,0 +1,141 @@
+<!--getbootstrap.com
+    1.Introduction = Quick start
+    2.Components = Alerts,Badge,Breadcrumb,Buttons,Button group,Card,Carousel,Modal,Navbar
+    3.Layout = Containers,Grid
+    4.Forms = Overview-->
+
+<!--source.unsplash.com for images-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--Bootstrap Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>About</title>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">iCoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/Main.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Topics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Technology</a>
+                            <a class="dropdown-item" href="#">Web Development</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Support</a>
+                            <a class="dropdown-item" href="#">Write for us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel from Examples -->
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">It all started with iCoder's idea.<span class="text-muted">It’ll blow
+                        your
+                        mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="6.jpeg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+                    height="400" alt="">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2"> <!--2nd order in medium device-->
+                <h2 class="featurette-heading">We started iCoder in 1877.<span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="img-fluid" src="7.png"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+                    height="400" alt="">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="8.webp"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+                    height="400" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2023-2024 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!--Popper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
